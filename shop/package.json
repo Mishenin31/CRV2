@@ -1,0 +1,17 @@
+{
+  "name": "electronics-shop",
+  "version": "1.0.0",
+  "description": "Интернет-магазин электроники (Node.js + Express)",
+  "author": "Мишенин",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}
