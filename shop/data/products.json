@@ -1,83 +1,56 @@
 [
   {
     "id": 1,
-    "name": "Смартфон Galaxy S24",
-    "category": "smartphones",
-    "price": 79990,
-    "quantity": 15,
-    "description": "Флагманский смартфон с экраном 6.2\", процессором Snapdragon 8 Gen 3, тройной камерой 50 Мп и аккумулятором 4000 мА·ч.",
-    "image": "https://placehold.co/600x600/2563eb/ffffff?text=Galaxy+S24"
+    "name": "CRV Рассвет над городом",
+    "category": "canvas",
+    "price": 18900,
+    "quantity": 7,
+    "description": "Интерьерная картина на холсте 60×80 см с тёплой палитрой рассвета и фактурными акриловыми мазками.",
+    "image": "https://placehold.co/600x600/f59e0b/111827?text=CRV+Sunrise"
   },
   {
     "id": 2,
-    "name": "Смартфон iPhone 15",
-    "category": "smartphones",
-    "price": 89990,
-    "quantity": 10,
-    "description": "Apple iPhone 15 с чипом A16 Bionic, экраном Super Retina XDR 6.1\", камерой 48 Мп и портом USB-C.",
-    "image": "https://placehold.co/600x600/1f2937/ffffff?text=iPhone+15"
+    "name": "CRV Морская тишина",
+    "category": "canvas",
+    "price": 22900,
+    "quantity": 5,
+    "description": "Авторская картина маслом 70×90 см для спокойного современного интерьера: море, свет и мягкие песочные оттенки.",
+    "image": "https://placehold.co/600x600/38bdf8/0f172a?text=CRV+Sea"
   },
   {
     "id": 3,
-    "name": "Смартфон Redmi Note 13",
-    "category": "smartphones",
-    "price": 21990,
-    "quantity": 30,
-    "description": "Доступный смартфон с AMOLED-экраном 6.67\", камерой 108 Мп и быстрой зарядкой 67 Вт.",
-    "image": "https://placehold.co/600x600/f97316/ffffff?text=Redmi+Note+13"
+    "name": "CRV Абстракция Ночь",
+    "category": "abstract",
+    "price": 31900,
+    "quantity": 4,
+    "description": "Крупная абстрактная работа 90×120 см с глубокими синими, графитовыми и золотыми акцентами.",
+    "image": "https://placehold.co/600x600/312e81/ffffff?text=CRV+Night"
   },
   {
     "id": 4,
-    "name": "Ноутбук MacBook Air M3",
-    "category": "laptops",
-    "price": 129990,
-    "quantity": 8,
-    "description": "Лёгкий ноутбук с чипом Apple M3, экраном Liquid Retina 13.6\", 8 ГБ ОЗУ и SSD 256 ГБ. Время работы до 18 часов.",
-    "image": "https://placehold.co/600x600/64748b/ffffff?text=MacBook+Air"
+    "name": "CRV Полевые цветы",
+    "category": "watercolor",
+    "price": 9900,
+    "quantity": 12,
+    "description": "Нежная акварель 40×50 см с паспарту. Подходит для спальни, детской или уютной гостиной.",
+    "image": "https://placehold.co/600x600/f9a8d4/831843?text=CRV+Flowers"
   },
   {
     "id": 5,
-    "name": "Ноутбук ASUS ROG Strix",
-    "category": "laptops",
-    "price": 149990,
-    "quantity": 5,
-    "description": "Игровой ноутбук с процессором Ryzen 9, видеокартой RTX 4070, экраном 16\" 165 Гц и SSD 1 ТБ.",
-    "image": "https://placehold.co/600x600/dc2626/ffffff?text=ROG+Strix"
+    "name": "CRV Золотой лист",
+    "category": "premium",
+    "price": 45900,
+    "quantity": 3,
+    "description": "Премиальная интерьерная картина 80×100 см с поталью, рельефной текстурой и защитным покрытием.",
+    "image": "https://placehold.co/600x600/ca8a04/ffffff?text=CRV+Gold"
   },
   {
     "id": 6,
-    "name": "Ноутбук Lenovo IdeaPad 3",
-    "category": "laptops",
-    "price": 44990,
-    "quantity": 12,
-    "description": "Универсальный ноутбук для работы и учёбы: процессор Core i5, 16 ГБ ОЗУ, SSD 512 ГБ, экран 15.6\" Full HD.",
-    "image": "https://placehold.co/600x600/0891b2/ffffff?text=IdeaPad+3"
-  },
-  {
-    "id": 7,
-    "name": "Наушники AirPods Pro 2",
-    "category": "accessories",
-    "price": 24990,
-    "quantity": 25,
-    "description": "Беспроводные наушники с активным шумоподавлением, пространственным звуком и зарядным кейсом USB-C.",
-    "image": "https://placehold.co/600x600/7c3aed/ffffff?text=AirPods+Pro"
-  },
-  {
-    "id": 8,
-    "name": "Беспроводная мышь Logitech MX",
-    "category": "accessories",
-    "price": 8990,
-    "quantity": 40,
-    "description": "Эргономичная беспроводная мышь с точным сенсором, тихими кнопками и аккумулятором на 70 дней.",
-    "image": "https://placehold.co/600x600/059669/ffffff?text=Logitech+MX"
-  },
-  {
-    "id": 9,
-    "name": "Внешний аккумулятор 20000 мА·ч",
-    "category": "accessories",
-    "price": 3490,
-    "quantity": 50,
-    "description": "Повербанк ёмкостью 20000 мА·ч с быстрой зарядкой Power Delivery 22.5 Вт и двумя портами USB.",
-    "image": "https://placehold.co/600x600/ca8a04/ffffff?text=PowerBank"
+    "name": "CRV Мини-серия Терракота",
+    "category": "sets",
+    "price": 14900,
+    "quantity": 9,
+    "description": "Набор из трёх картин 30×40 см в терракотовых и бежевых оттенках для композиции над диваном.",
+    "image": "https://placehold.co/600x600/c2410c/fff7ed?text=CRV+Set"
   }
 ]
