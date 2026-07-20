@@ -4,23 +4,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Личный кабинет — Вольт</title>
+  <title>CRV — магазин картин</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <div id="header"></div>
-
-  <main class="container">
-    <div id="content">
-      <div class="loading">Загрузка…</div>
+  <header class="hero">
+    <nav class="nav container">
+      <a class="logo" href="/">CRV Gallery</a>
+      <div class="nav__links">
+        <a href="#catalog">Каталог</a>
+        <a href="#about">О галерее</a>
+        <a href="#order">Заказ</a>
+      </div>
+    </nav>
+    <div class="hero__content container">
+      <p class="eyebrow">Авторские картины для дома и офиса</p>
+      <h1>Магазин картин CRV</h1>
+      <p class="hero__text">Подберите готовую работу на холсте, акварель или интерьерную серию с доставкой и консультацией по размещению.</p>
+      <a class="button" href="#catalog">Смотреть коллекцию</a>
     </div>
+  </header>
+
+  <main>
+    <section id="catalog" class="section container">
+      <div class="section__heading">
+        <p class="eyebrow">Коллекция</p>
+        <h2>Картины в наличии</h2>
+      </div>
+      <div class="filters" id="filters"></div>
+      <div class="catalog" id="catalogGrid">
+        <div class="loading">Загрузка картин…</div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container about__grid">
+        <div>
+          <p class="eyebrow">CRV</p>
+          <h2>Галерея с индивидуальным подбором</h2>
+        </div>
+        <p>Мы собираем выразительные работы для современных интерьеров: от камерных акварелей до крупной фактурной абстракции. Каждая картина готова к отправке и сопровождается рекомендациями по уходу.</p>
+      </div>
+    </section>
+
+    <section id="order" class="section container order">
+      <div>
+        <p class="eyebrow">Корзина</p>
+        <h2>Ваш заказ</h2>
+        <div id="cart" class="cart">Корзина пуста.</div>
+      </div>
+      <form id="orderForm" class="order-form">
+        <label>Имя<input name="customerName" required placeholder="Как к вам обращаться"></label>
+        <label>Телефон<input name="phone" required placeholder="+7 900 000-00-00"></label>
+        <label>Адрес доставки<textarea name="address" required placeholder="Город, улица, дом"></textarea></label>
+        <button class="button" type="submit">Оформить заказ</button>
+        <p id="orderMessage" class="message"></p>
+      </form>
+    </section>
   </main>
 
-  <footer class="footer">© 2025 Вольт. Учебный проект. Автор: Мишенин.</footer>
+  <footer class="footer">© 2026 CRV Gallery. Магазин авторских картин. Автор: Мишенин.</footer>
 
-  <script src="/js/common.js"></script>
   <script src="/js/account.js"></script>
 </body>
 </html>

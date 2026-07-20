@@ -1,7 +1,7 @@
 {
-  "name": "electronics-shop",
+  "name": "crv-art-shop",
   "version": "1.0.0",
-  "description": "Интернет-магазин электроники (Node.js + Express)",
+  "description": "Интернет-магазин картин CRV (Node.js + Express)",
   "author": "Мишенин",
   "main": "server.js",
   "type": "commonjs",
